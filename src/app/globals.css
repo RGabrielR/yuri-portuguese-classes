@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@import "tailwindcss/preflight" layer(utilities);
+@import "tailwindcss/utilities" layer(utilities);
+@import "tailwindcss" layer(utilities);
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 156, 59; /* Verde de Brasil */
+  --background-end-rgb: 255, 223, 0; /* Amarillo de Brasil */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 74, 27; /* Verde oscuro */
+    --background-end-rgb: 128, 111, 0; /* Amarillo oscuro */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to right,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  overflow-x: hidden;
+}
+
+.text-deep-shadow {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 1.5s ease-in-out infinite;
+}

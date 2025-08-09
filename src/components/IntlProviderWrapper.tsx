@@ -1,10 +1,10 @@
 'use client';
 
-import { Locale, NextIntlClientProvider } from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
 import Navbar from '@/components/layout/Navbar';
 
 interface IntlProviderWrapperProps {
-  locale?: Locale;
+  locale?: string;
   messages: Record<string, any>;
   children: React.ReactNode;
 }

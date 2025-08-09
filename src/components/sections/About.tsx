@@ -77,7 +77,7 @@ export default function About() {
         />
         <div className="flex justify-center space-x-4">
           <p className="text-stone-600 dark:text-stone-400">
-            Más de 5 años de experiencia. Fluidez en portugués, inglés y español.
+            {t("experience")}
           </p>
         </div>
       </div>

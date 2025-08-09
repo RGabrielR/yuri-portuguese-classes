@@ -1,0 +1,43 @@
+{
+  "Navbar": {
+    "about": "Sobre mí",
+    "features": "Características",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "title": "Aprende portugués con Yuri",
+    "subtitle": "Clases personalizadas para todos los niveles",
+    "cta": "Reserva una clase gratis"
+  },
+  "About": {
+    "title": "Sobre Yuri",
+    "description": "Yuri es un profesor nativo de portugués con más de 10 años de experiencia. Ha ayudado a cientos de estudiantes de todo el mundo a aprender portugués y alcanzar sus objetivos."
+  },
+  "Features": {
+    "title": "¿Por qué aprender conmigo?",
+    "subtitle": "Aprender portugués conmigo no es solo adquirir un nuevo idioma: es abrirte a nuevas oportunidades personales, profesionales y culturales. Mis clases están diseñadas para que aprendas de forma práctica, entretenida y totalmente adaptada a tu ritmo. Ya sea que necesites comunicarte en un viaje, avanzar en tu carrera o conectar con personas de Brasil, te ofrezco un acompañamiento cercano, material actualizado y herramientas que realmente funcionan. Te invito a vivir una experiencia de aprendizaje efectiva, flexible y motivadora.",
+    "feature1_title": "Personalización",
+    "feature1_description": "Planes de estudio a tu medida. Personalizados para tu nivel y objetivos.",
+    "feature2_title": "Flexibilidad",
+    "feature2_description": "Horarios que se adaptan a tu rutina.",
+    "feature3_title": "Resultados",
+    "feature3_description": "Notarás tu progreso desde el primer día."
+  },
+  "Testimonials": {
+    "title": "Lo que dicen mis alumnos",
+    "testimonial1": "¡Las clases con Yuri son increíbles! Aprendí muchísimo en poco tiempo y me sentí muy cómodo desde el primer día.",
+    "testimonial1_author": "- Carlos, México",
+    "testimonial2": "La mejor decisión para aprender portugués. Yuri es un profesor paciente y dedicado, y sus clases son muy entretenidas.",
+    "testimonial2_author": "- Laura, Colombia",
+    "testimonial3": "Gracias a Yuri, ahora puedo comunicarme con fluidez en portugués. ¡Totalmente recomendado!",
+    "testimonial3_author": "- Sofía, Argentina"
+  },
+  "Contact": {
+    "title": "Agenda tu primera clase",
+    "subtitle": "Da el primer paso para hablar portugués con fluidez.",
+    "name": "Nombre",
+    "email": "Email",
+    "schedule": "Agendar"
+  }
+}

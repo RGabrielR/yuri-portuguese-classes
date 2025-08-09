@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -11,6 +12,7 @@ const fadeIn = {
 };
 
 export default function Hero() {
+  const t = useTranslations("Hero");
   return (
     // ① full‑width section, no container
     <motion.section
@@ -23,10 +25,10 @@ export default function Hero() {
       {/* ② LEFT: text block (50 vw) */}
       <div className="flex w-[60vw] flex-col justify-center px-6 space-y-4 ">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-stone-900 dark:text-amber-50 text-deep-shadow bg-blue-950 p-3 rounded-2xl shadow-2xl shadow-black">
-          Aprende Portugués con Yuri
+          {t("title")}
         </h1>
         <p className="max-w-[60ch] md:text-xl text-black  bg-blue-700 p-3 rounded-2xl shadow-2xl shadow-black">
-          Clases personalizadas y dinámicas para que domines el portugués.
+          {t("subtitle")}
         </p>
       </div>
 

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { InlineWidget } from "react-calendly";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -11,7 +12,8 @@ const fadeIn = {
   viewport: { once: true },
 };
 
-const Contact = () => {
+export default function Contact() {
+  const t = useTranslations("Contact");
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -37,10 +39,10 @@ const Contact = () => {
       <div className="w-full grid items-center justify-center gap-4 px-4 text-center md:px-6">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-stone-900 dark:text-amber-50 text-deep-shadow">
-            Agenda tu primera clase
+            {t("title")}
           </h2>
           <p className="mx-auto max-w-[600px] text-stone-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-stone-400">
-            Da el primer paso para hablar portugués con fluidez.
+            {t("subtitle")}
           </p>
         </div>
         <div className="mx-auto w-full max-w-sm space-y-2">
@@ -52,7 +54,7 @@ const Contact = () => {
             <form className="flex flex-col space-y-2" onSubmit={handleSubmit}>
               <input
                 type="text"
-                placeholder="Nombre"
+                placeholder={t("name")}
                 className="max-w-lg flex-1 px-4 py-2 border border-stone-300 rounded-md dark:bg-stone-800 dark:text-amber-50 dark:border-stone-700"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -60,7 +62,7 @@ const Contact = () => {
               />
               <input
                 type="email"
-                placeholder="Email"
+                placeholder={t("email")}
                 className="max-w-lg flex-1 px-4 py-2 border border-stone-300 rounded-md dark:bg-stone-800 dark:text-amber-50 dark:border-stone-700"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -70,7 +72,7 @@ const Contact = () => {
                 type="submit"
                 className="inline-flex items-center justify-center rounded-md bg-amber-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-amber-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-amber-950"
               >
-                Agendar
+                {t("schedule")}
               </button>
             </form>
           )}
@@ -80,4 +82,3 @@ const Contact = () => {
   );
 };
 
-export default Contact;

@@ -1,0 +1,43 @@
+{
+  "Navbar": {
+    "about": "Sobre mim",
+    "features": "Recursos",
+    "testimonials": "Depoimentos",
+    "contact": "Contato"
+  },
+  "Hero": {
+    "title": "Aprenda português com Yuri",
+    "subtitle": "Aulas personalizadas para todos os níveis",
+    "cta": "Agende uma aula gratuita"
+  },
+  "About": {
+    "title": "Sobre Yuri",
+    "description": "Yuri é um professor nativo de português com mais de 10 anos de experiência. Ele já ajudou centenas de alunos de todo o mundo a aprender português e alcançar seus objetivos."
+  },
+  "Features": {
+    "title": "Por que aprender comigo?",
+    "subtitle": "Aprender português comigo não é apenas adquirir um novo idioma: é abrir-se para novas oportunidades pessoais, profissionais e culturais. Minhas aulas são projetadas para que você aprenda de forma prática, divertida e totalmente adaptada ao seu ritmo. Se você precisa se comunicar em uma viagem, avançar na carreira ou se conectar com pessoas do Brasil, ofereço um acompanhamento próximo, material atualizado e ferramentas que realmente funcionam. Convido você a viver uma experiência de aprendizado eficaz, flexível e motivadora.",
+    "feature1_title": "Personalização",
+    "feature1_description": "Planos de estudo sob medida para você. Personalizados para o seu nível e objetivos.",
+    "feature2_title": "Flexibilidade",
+    "feature2_description": "Horários que se adaptam à sua rotina.",
+    "feature3_title": "Resultados",
+    "feature3_description": "Você notará seu progresso desde o primeiro dia."
+  },
+  "Testimonials": {
+    "title": "O que meus alunos dizem",
+    "testimonial1": "As aulas do Yuri são incríveis! Aprendi muito em pouco tempo e me senti muito à vontade desde o primeiro dia.",
+    "testimonial1_author": "- Carlos, México",
+    "testimonial2": "A melhor decisão para aprender português. Yuri é um professor paciente e dedicado, e suas aulas são muito divertidas.",
+    "testimonial2_author": "- Laura, Colômbia",
+    "testimonial3": "Graças ao Yuri, agora consigo me comunicar fluentemente em português. Totalmente recomendado!",
+    "testimonial3_author": "- Sofía, Argentina"
+  },
+  "Contact": {
+    "title": "Agende sua primeira aula",
+    "subtitle": "Dê o primeiro passo para falar português com fluência.",
+    "name": "Nome",
+    "email": "Email",
+    "schedule": "Agendar"
+  }
+}

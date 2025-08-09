@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Avatar } from "@/components/ui/avatar";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -11,7 +12,9 @@ const fadeIn = {
   viewport: { once: true },
 };
 
-const About = () => (
+export default function About() {
+  const t = useTranslations("About");
+  return (
   <motion.section
     id="about"
     className="w-full py-12 md:py-24 lg:py-32 bg-amber-50 dark:bg-stone-900"
@@ -57,13 +60,13 @@ const About = () => (
       {/* Contenido principal */}
       <div className="space-y-3 relative z-10">
         <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight text-stone-900 dark:text-amber-50 text-deep-shadow">
-          Conoce a tu profesor
+          {t("title")}
         </h2>
         <p className="cursor-default mx-auto max-w-[1000px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed
           text-stone-900 dark:text-amber-50
           bg-white/80 dark:bg-stone-900/80
           p-4 rounded-2xl shadow-lg backdrop-blur-sm border border-stone-200 dark:border-stone-700">
-          Soy Yuri, nací en Natal, una hermosa ciudad costera en el noreste de Brasil. Hace 8 años decidí mudarme a Argentina, donde encontré un nuevo hogar y una comunidad increíble. Desde entonces, vivo en Argentina y he dedicado mi vida a compartir mi idioma y mi cultura con personas de todas partes. Mis clases de portugués han ayudado a muchas personas a alcanzar sus metas personales, profesionales y académicas, acompañándolas en su proceso de aprendizaje con dedicación, empatía y pasión. Me enorgullece ver cómo mis alumnos logran comunicarse con fluidez, descubrir nuevas oportunidades y conectar con la cultura brasileña. ¡Será un placer acompañarte también en tu camino para dominar el portugués!
+          {t("description")}
         </p>
       </div>
       <div className="mx-auto w-full max-w-sm space-y-2 relative z-10">
@@ -80,6 +83,4 @@ const About = () => (
       </div>
     </div>
   </motion.section>
-);
-
-export default About;
+);}

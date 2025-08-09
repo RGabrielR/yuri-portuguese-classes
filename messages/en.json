@@ -1,0 +1,43 @@
+{
+  "Navbar": {
+    "about": "About",
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Learn Portuguese with Yuri",
+    "subtitle": "Personalized classes for all levels",
+    "cta": "Book a free class"
+  },
+  "About": {
+    "title": "About Yuri",
+    "description": "Yuri is a native Portuguese teacher with over 10 years of experience. He has helped hundreds of students from all over the world to learn Portuguese and achieve their goals."
+  },
+  "Features": {
+    "title": "Why learn with me?",
+    "subtitle": "Learning Portuguese with me is not just about acquiring a new language: it's about opening yourself up to new personal, professional, and cultural opportunities. My classes are designed for you to learn in a practical, entertaining, and fully adapted way to your pace. Whether you need to communicate on a trip, advance in your career, or connect with people from Brazil, I offer you close support, updated material, and tools that really work. I invite you to live an effective, flexible, and motivating learning experience.",
+    "feature1_title": "Personalization",
+    "feature1_description": "Study plans tailored to you. Personalized for your level and goals.",
+    "feature2_title": "Flexibility",
+    "feature2_description": "Schedules that adapt to your routine.",
+    "feature3_title": "Results",
+    "feature3_description": "You will notice your progress from day one."
+  },
+  "Testimonials": {
+    "title": "What my students say",
+    "testimonial1": "Yuri's classes are incredible! I learned a lot in a short time and felt very comfortable from the first day.",
+    "testimonial1_author": "- Carlos, Mexico",
+    "testimonial2": "The best decision to learn Portuguese. Yuri is a patient and dedicated teacher, and his classes are very entertaining.",
+    "testimonial2_author": "- Laura, Colombia",
+    "testimonial3": "Thanks to Yuri, I can now communicate fluently in Portuguese. Totally recommended!",
+    "testimonial3_author": "- Sofía, Argentina"
+  },
+  "Contact": {
+    "title": "Schedule your first class",
+    "subtitle": "Take the first step to speak fluent Portuguese.",
+    "name": "Name",
+    "email": "Email",
+    "schedule": "Schedule"
+  }
+}

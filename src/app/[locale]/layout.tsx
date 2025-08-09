@@ -12,15 +12,16 @@ export default async function LocaleLayout({
 }) {
   const routingsToString = routing.locales.map((loc) => loc.toString());
   // Si no hay locale o no es válido, usa "es"
-  const locale =
-    params.locale && routingsToString.includes(params.locale)
-      ? params.locale
-      : routing.defaultLocale || "es";
+  const { locale} = await params;
+  const localeParam =
+    locale && routingsToString.includes(locale)
+      ? locale
+      : routing?.defaultLocale || "es";
 
   const messages = await getMessages({ locale });
 
   return (
-    <IntlProviderWrapper messages={messages} locale={locale}>
+    <IntlProviderWrapper messages={messages} locale={localeParam}>
       {children}
     </IntlProviderWrapper>
   );
